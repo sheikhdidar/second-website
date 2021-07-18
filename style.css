@@ -1,0 +1,47 @@
+ul.menu{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+ul.menu li{
+    background-color: darkcyan;
+    position: relative;
+}
+ul.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding:15px 25px;
+    color:#fff;
+}
+ul.menu li:hover {
+    background-color: #0c3535;
+}
+ul.drop{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    display: none;
+    top:100%;
+}
+
+ul.menu li:hover ul.drop{
+    display:block;
+}
+ul.type{
+    list-style: none;
+    text-transform: uppercase;
+    margin:0;
+    padding: 0;
+    position:absolute;
+    display: none;
+    left:100%;
+
+}
+ul.drop li:hover ul.type{
+    display: block;
+}
+
